@@ -10,7 +10,7 @@
 #COPY . .
 #
 #RUN go build -o goaws_linux_amd64 app/cmd/goaws.goc
-FROM alpine
+FROM alpine:3.18.3
 
 EXPOSE 4100
 
